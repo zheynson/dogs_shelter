@@ -1,0 +1,300 @@
+@font-face {
+    font-family: Arial; /* Имя шрифта */
+    src: url('../fonts/ArialMT.ttf'); /* Путь к файлу со шрифтом */
+}
+
+*{
+    margin: 0;
+}
+
+ul, li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.bg-up{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    padding-top: 37px;
+}
+
+.text-logo{
+    font-size: 32px;
+    font-family: "Georgia";
+    color: rgb(241, 205, 179);
+}
+
+.logo-text-down{
+    font-size: 13px;
+    font-weight: 100;
+    font-family: "Georgia";
+    color: rgb(255, 255, 255);
+    line-height: 2.231;
+}
+
+.nav{
+    margin-left: 30%;
+}
+
+.nav li{
+    display: inline;
+    margin-left: 36px;
+}
+
+.nav li a{
+    color: rgb(205, 205, 205);
+    font-size: 15px;
+    font-family: "Arial";
+    font-weight: lighter;
+}
+
+.nav li a:hover{
+    text-decoration: none;
+}
+
+.head-text{
+    margin-top: 161px;
+}
+
+.head-text .text-one{
+    font-size: 44px;
+    font-family: "Georgia";
+    color: rgb(255, 255, 255);
+}
+
+.head-text .text-two{
+    margin-top: 42px;
+    margin-bottom: 42px;
+    font-size: 15px;
+    font-family: "Arial";
+    color: rgb(205, 205, 205);
+}
+
+.header-button{
+    border-radius:30px !important;
+    font-size: 17px !important;
+    padding: 17px 45px !important;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    background-color: #f1cdb3 !important;
+    font-family: Georgia !important;
+    transition: .5s;
+}
+
+.header-button:hover{
+  background-color: #e58a48 !important;
+}
+
+.about{
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.about-text{
+    max-width: 28%;
+    margin-left: 123px;
+}
+
+.about-text-title{
+    color: #545454;
+    font-size: 35px;
+    font-family: "Georgia";
+    color: rgb(84, 84, 84);
+    margin-bottom: 35px;
+}
+
+.about-text-one, .about-text-two{
+    margin-bottom: 35px;
+}
+
+.about-text-one .about-text-two{
+    font-size: 15px;
+    font-family: "Arial";
+    color: rgb(76, 76, 76);
+}
+
+/*////////////////////////////////////////////////////////////////////////////*/
+
+.bg-choice{
+    background-color: #f6f6f6;
+    padding-top: 72px;
+}
+
+.choice-title{
+    text-align: center;
+    color: #545454;
+    font-size: 35px;
+    font-family: "Georgia";
+    color: rgb(84, 84, 84);
+}
+
+.btn-primary{
+    background-color: #f1cdb3 !important;
+    border: #d39e00 !important;
+}
+
+.btn-primary:hover{
+    background-color: #f77211 !important;
+}
+
+.b{
+    padding: 63px 0;
+}
+
+/*---------------------------------------*/
+
+.toy-title{
+    padding: 75px 0;
+    font-size: 35px;
+    font-family: "Georgia";
+    color: rgb(84, 84, 84);
+    line-height: 1.286;
+    text-align: center;
+}
+
+.toys .toy{
+    text-align: center;
+}
+
+.toys1 .toy{
+    text-align: center;
+}
+
+.toy span{
+    margin-top: 25px;
+    display: block;
+    font-size: 20px;
+    font-family: "Georgia";
+    color: rgb(84, 84, 84);
+    line-height: 2.25;
+}
+
+.t{
+    max-width: 55% !important;
+}
+
+.toys2{
+    margin: 50px 84px;
+}
+
+.toys2 .toy{
+    text-align: center;
+}
+.toy:hover{
+    padding: 10px 10px;
+    border-radius: 15%;
+    border: solid 2px #d39e00 !important;
+    transition: .5s !important;
+}
+
+.toys a:hover{
+    text-decoration: none;
+}
+
+
+/*----------------------------*/
+
+.bg-footer{
+    background-color: #f6f6f6;
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+
+.container img{
+    margin-top: auto;
+}
+
+.footer-text{
+    margin-left: 70px;
+}
+
+
+.footer-title{
+    font-size: 35px;
+    font-family: "Georgia";
+    color: rgb(84, 84, 84);
+    line-height: 1.286;
+}
+
+.footer-span{
+    font-size: 15px;
+    font-family: "Georgia";
+    color: rgb(84, 84, 84);
+    line-height: 1.2;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+.footer-card{
+    background-color: #f1cdb3;
+    border-radius: 5px;
+    padding: 11px 11px;
+}
+
+.card-num{
+    font-size: 20px;
+    font-family: "Times New Roman";
+    color: rgb(41, 41, 41);
+    line-height: 2.25;
+    letter-spacing: 2px;
+    margin-left: 15px;
+}
+
+.footer-long-text{
+    margin-top: 35px;
+    font-size: 12px;
+    font-family: "Arial";
+    color: rgb(178, 178, 178);
+    font-style: italic;
+    line-height: 1.5;
+    max-width: 77%;
+}
+
+.foot-bg{
+    background-image: url("../img/footer.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    background-position: center;
+}
+
+/*//////////////////////////////////////////////////////////*/
+
+.foot-title{
+    font-size: 35px;
+    font-family: "Georgia";
+    color: rgb(255, 255, 255);
+    line-height: 1.286;
+}
+
+.foot-one, .foot-two{
+    font-size: 20px;
+    font-family: "Times New Roman";
+    color: rgb(241, 205, 179);
+    line-height: 2.25;
+    margin-top: 22px;
+}
+
+.foot-one span{
+    margin-left: 20px;
+}
+
+.foot-two span{
+    margin-left: 20px;
+}
+
+.foot-column + .foot-column{
+    margin-left: 170px;
+}
+
+
+
+
